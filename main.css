@@ -1,15 +1,30 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     max-width: 1160px;
     margin: 0 auto;
     padding: 0 10px;
 }
-.main__cards{
+
+.main__cards {
     margin-top: 50px;
+    display: flex;
 }
-.main__cards--item{
+.main__cards---right{
+    margin-left: 80px;
+}
+.main__cards---right--strong {
+    color: var(--text, #252B42);
+    font-family: "roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+.main__cards---right--h3{
     
 }
